@@ -1,0 +1,459 @@
+
+
+html, body, div {
+    background: url("../images/circles_and_roundabouts.png");
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    width:600px;
+    float: left;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 25px;
+}
+
+.page {
+    width: 960px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#connect {
+    width: 250px;
+    float: left;
+    background: #ffffff;
+    margin-left: 3%;
+    margin-top: 3%;
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+#footer {
+    clear: both;
+    background: #666666;
+    width:100%;
+    height: 100px;
+    position: sticky;
+    bottom: 0px;
+}
+
+#nav {
+    background: #ffffff;
+    border-bottom: 3px solid #cccccc;
+    height:100px;
+    margin-top:-15px;
+    width:100%;
+}
+
+#name {
+    background: #4aaaa5;
+    width:30%;
+    height:80%;
+    margin-left:11%;
+    float: left;
+    margin-right: 23%;
+    margin-top:1.5%;
+}
+
+li {
+    margin-top: 10px;
+    float: left;
+    padding: 2%;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    list-style: none;
+}
+
+.navBar {
+    border-left: 2px solid #eeeeee;
+    height: 25px;
+}
+
+.navLink {
+    color: #777777;
+}
+
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-bottom: 3px solid #eeeeee;
+    padding-bottom: 25px;
+    color: #4aaaa5;
+}
+
+h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 15px;
+    padding-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+a:visited { 
+    color: #333232; 
+}
+a:hover { 
+    color: #4aaaa5; 
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#cezar {
+    width: 178px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.portfolioImage {
+    width:270px; 
+}
+
+.portfolioImage:hover {
+    outline: 5px solid #4aaaa5; 
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+
+#preFooter {
+    display: block;
+    background: #4aaaa5;
+    height: 5px;
+}
+
+h6 {
+   text-align: center;
+   color: #eeeeee;
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   padding-top: 13px;
+   font-size: 12px;
+
+}
+
+.icon {
+    margin: 9px;
+  }
+
+  .icon:hover {
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+  
+  #stack {
+      height: 57px;
+      position:absolute;
+      margin-top: 13px;
+      margin-left: 13px;
+  }
+
+  .banner {
+    display: block;
+    float: left;
+    background: #ffffff;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.banner-link {
+  background: #4aaaa5;
+  position: absolute;
+  width: 270px;
+  height:50px;
+  bottom: 25px;
+}
+
+.banner-link h3 {
+  color: #ffffff;
+  text-align: center;
+  padding-left: 0px;
+  margin-top: 14px;
+  border-bottom: none;
+}
+
+form {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-5px;
+}
+
+input {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    height: 20px;
+}
+
+#msg {
+    height: 250px;
+    vertical-align: text-top;
+    width: 100%;
+}
+
+.button {
+    background: #4aaaa5;
+    height: 45px;
+    width: 100px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+@media (max-width: 980px) {
+    #main {
+        width: 45%;
+    }
+
+.page {
+    width:100%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+    #connect {
+        width: 25%;
+        text-align: center;
+    }
+    
+    .icon{
+        width:50px;
+        height: auto;
+        margin: 1%;
+
+    }
+
+h3 {
+    padding-left: 0px;
+}
+
+    #stack {
+        height: 45px;
+        position: relative;
+        width: 45px;
+        top: -3px;
+        left: -8px;
+    }
+
+    #name {
+        width: 38%;
+        margin-right: 15%;
+    }
+
+    #cezar {
+        width: 100%;
+        height:auto;
+    }
+
+    .banner{
+        float: none;
+        width:100%;
+        margin-left: auto;  
+        margin-right: auto;
+
+    }
+    .banner-link{
+        width:100%;
+        margin-left: auto;  
+        margin-right: auto;
+    }
+    .portfolioImage{
+        width:100%;
+        margin-left: auto;  
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #main {
+        width: 85%;
+        float: none;
+        margin-left: 3%;
+    }
+
+.page {
+    width:100%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+    #connect {
+        width: 90%;
+        text-align: center;
+        float: none;
+        margin: 2%;
+        margin-left: 3%;
+    }
+    
+    .icon{
+        width:50px;
+        height: auto;
+        margin: 1%;
+    }
+
+h3 {
+    padding-left: 0px;
+}
+
+    #stack {
+        height: 45px;
+        position: relative;
+        width: 45px;
+        top: -3px;
+        left: -8px;
+    }
+
+    #name {
+        width: 45%;
+        margin-right: 5%;
+    }
+
+    #cezar {
+        width: 45%;
+        height:auto;
+    }
+    .banner{
+        float: none;
+        width:100%;
+        margin-left: auto;  
+        margin-right: auto;
+
+    }
+    .banner-link{
+        width:100%;
+        margin-left: auto;  
+        margin-right: auto;
+    }
+    .portfolioImage{
+        width:100%;
+        margin-left: auto;  
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 640px) {
+    #main {
+        width: 74%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+.page {
+    width:100%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+    #connect {
+        width: 82%;
+        text-align: center;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    
+    .icon{
+        width:50px;
+        height: auto;
+        margin: 1%;
+    }
+
+h3 {
+    padding-left: 0px;
+}
+
+    #stack {
+        height: 45px;
+        position: relative;
+        width: 45px;
+        top: -3px;
+        left: -8px;
+    }
+
+    #name {
+        width: 100%;
+        height:55%;
+        margin:0px;
+        float: none; 
+    }
+
+    #cezar {
+        width: 45%;
+        height:auto;
+    }
+
+    h1 {
+        margin: 0px;
+        padding: 0px;
+        padding-top: 3%;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navBar {
+        height: 8px;
+        margin-top:3px;
+    }
+
+    li {
+        margin-top: 0px;
+    }
+    .banner{
+        float: none;
+        width:100%;
+        margin-left: auto;  
+        margin-right: auto;
+
+    }
+    .banner-link{
+        width:100%;
+        margin-left: auto;  
+        margin-right: auto;
+    }
+    .portfolioImage{
+        width:100%;
+        margin-left: auto;  
+        margin-right: auto;
+    }
+}
+
+@media (min-height: 1300px) {
+    #footer {
+        position: absolute;
+    }
+
+}
